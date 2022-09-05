@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="#ffc8dd"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:textSize="25sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/textColor"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your"
+        android:textSize="25sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="True Age"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"/>
+
+    <Button
+        android:id="@+id/myDatePickerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:backgroundTint="#a2d2ff"
+        android:text="Select Date" />
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="27/06/2003"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textColor="#cdb4db"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Date"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#cdb4db"/>
+
+    <TextView
+        android:id="@+id/tvAgeInYears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="monospace"
+        android:text="19"
+        android:textColor="@color/textColor"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="monospace"
+        android:text="Years"
+        android:textColor="#0077b6"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
